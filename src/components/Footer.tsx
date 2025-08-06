@@ -24,8 +24,8 @@ const info = {
   ],
   contact: [
     { label: "Block 7, New Owerri Secretariat 460281", href: "/" },
-    { label: "Nil", href: "#" },
-    { label: "", href: "mailto:imostatemgvg@gmail.com" },
+    { label: "", href: "" },
+    { label: "", href: "" },
   ],
 };
 
