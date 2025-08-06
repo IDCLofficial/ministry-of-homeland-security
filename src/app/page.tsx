@@ -1,103 +1,71 @@
-import Image from "next/image";
+import AboutMandateSection from "@/components/AboutMandateSection";
+import HeroSection from "@/components/HeroSection";
+import CommissionerSection from "@/components/CommissionerSection";
+import QuickLinksSection from "@/components/QuickLinksSection";
+import SkillUpSection from "@/components/SkillUpSection";
+import LatestNewsSection from "@/components/LatestNewsSection";
+import Stats from "@/components/Stats";
+import FeaturedPartners from "@/components/FeaturedPartners";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+     
+      {/* hero section */}
+      <HeroSection
+        backgroundVideo="/video/vigilante.mp4"
+        overlayText="Imo State Ministry of Homeland Security and Vigilante Affairs"
+        heading="Securing Communities. "
+        subheading="Protecting Citizens."
+        description="Ensuring safety, coordinating vigilance, and protecting Imo citizens — through strategic security policies, community engagement, and rapid response programs."
+      />
+      {/* About Mandate Section */}
+      <AboutMandateSection
+        label="ABOUT US"
+        title="Our Mandate —"
+        subheading="Ministry of Homeland Security and Vigilante Affairs, Imo State"
+        description="Welcome to the Imo State Ministry of Homeland Security and Vigilante Affairs. As a key driver of security transformation, our Ministry plays a critical role in positioning Imo State as a hub for security, vigilance, and public safety. In a time of post-oil diversification, we are committed to fostering sustainable development, attracting investment, and creating opportunities through a robust policy framework and forward-thinking leadership. Established through the restructuring of former security, vigilance, and community development departments, this Ministry brings focus to the vast opportunities in Imo's security landscape—vigilance, protection, and more."
+
+        buttonText="Discover More"
+        image1="/images/vig2.png"
+        image2="/images/vig1.png"
+      />
+
+      {/* Commissioner Section */}
+      <CommissionerSection
+        imageSrc="/images/commisioner.png"
+        imageAlt="Honourable Osakwe Abiazie Modestus"
+        title="About The Commissioner"
+        bio="Honourable Osakwe Abiazie Modestus is a respected statesman and a pillar of security reform in Imo State. Known for his unwavering dedication to public safety and civic responsibility, he has become a key force in repositioning Imo State as a model of proactive and people-centered security governance. A man of integrity and strategic vision, Hon. Osakwe brings a wealth of experience in conflict resolution, community engagement, and institutional transformation."
+
+        details="Under his leadership, the Ministry of Homeland Security and Vigilante Affairs has evolved into a dynamic engine of security innovation—bridging the gap between government policy and grassroots protection. His collaborative work with local vigilante groups, law enforcement agencies, and international partners has not only strengthened security frameworks but also restored confidence in community-based vigilance. Hon. Osakwe's bold and intelligent approach reflects a deep commitment to protecting lives, fostering unity, and securing a peaceful future for all Imolites. His tenure is marked by courage, responsiveness, and an unshakable resolve to uphold peace and justice across the state."
+/>        
+      <div className="bg-white">
+
+      {/* Skill Up Section */}
+      <SkillUpSection />
+      {/* Quick Links Section */}
+      <QuickLinksSection />
+      {/* Latest News Section */}
+      <LatestNewsSection />
+      </div>
+
+      {/* Stats Section */}
+      <Stats />
+      {/* Featured Partners Section */}
+      <FeaturedPartners />
+      {/* CTASection */}
+      <CTASection
+        heading="Join Us in Securing Communities and Promoting Public Safety"
+        subtext="Be part of our mission to create a safe, secure, and protected Imo State for all residents through effective vigilance and community engagement."
+        buttonLabel="Contact Homeland Security"
+        buttonHref="/contact-us"
+      />
+      {/* Footer */}
+      <Footer />
+    </>
   );
 }
