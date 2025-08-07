@@ -1,5 +1,5 @@
 import React from "react";
-import AnimatedSection from "@/components/AnimatedSection2";
+import AnimatedSection from "@/components/AnimatedSection";
 
 type Service = {
   title: string;

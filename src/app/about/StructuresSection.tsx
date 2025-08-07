@@ -1,4 +1,4 @@
-import AnimatedSection from "@/components/AnimatedSection2";
+import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 
 interface Department {
