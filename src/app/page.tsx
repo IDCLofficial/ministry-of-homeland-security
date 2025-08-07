@@ -19,7 +19,7 @@ export default function Home() {
         backgroundVideo="/video/vigilante.mp4"
         overlayText="Imo State Ministry of Homeland Security and Vigilante Affairs"
         heading="Securing Communities. "
-        subheading="Protecting Citizens."
+        subheading=""
         description="Ensuring safety, coordinating vigilance, and protecting Imo citizens — through strategic security policies, community engagement, and rapid response programs."
       />
       {/* About Mandate Section */}
@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* Commissioner Section */}
       <CommissionerSection
-        imageSrc="/images/commisioner.png"
+        imageSrc="/images/commisioner.jpg"
         imageAlt="Honourable Osakwe Abiazie Modestus"
         title="About The Commissioner"
         bio="Honourable Osakwe Abiazie Modestus is a respected statesman and a pillar of security reform in Imo State. Known for his unwavering dedication to public safety and civic responsibility, he has become a key force in repositioning Imo State as a model of proactive and people-centered security governance. A man of integrity and strategic vision, Hon. Osakwe brings a wealth of experience in conflict resolution, community engagement, and institutional transformation."

@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react';
 
 const sentences = [
   "Ensuring Safety",
-  "Protecting Citizens",
-  "Securing Communities"
+  "Safeguarding Imo",
+  "Restoring Peace",
+  "Protecting Citizens"
 ];
 
 
