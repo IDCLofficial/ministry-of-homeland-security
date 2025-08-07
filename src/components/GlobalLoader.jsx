@@ -42,8 +42,8 @@ export default function GlobalLoader() {
           className="animate-spin-slow"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width="53"
-    height="53"
+    width="70"
+    height="70"
     fill="none"
     viewBox="0 0 53 53"
   >

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import AnimatedSection from "./AnimatedSection";
 
 const news = [
   {
@@ -41,11 +42,13 @@ export default function LatestNewsSection() {
                 priority={idx === 0}
               />
             </div>
+            <AnimatedSection>
             <div className="p-6 flex flex-col flex-1">
               <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 tracking-tight uppercase">{item.title}</h3>
               <p className="text-gray-500 text-base mb-6">{item.description}</p>
               <div className="mt-auto font-bold text-black text-base">{item.date}</div>
             </div>
+            </AnimatedSection>
           </div>
         ))}
       </div>
