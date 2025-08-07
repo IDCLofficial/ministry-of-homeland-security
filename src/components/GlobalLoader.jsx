@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import Image from 'next/image';
 
 export default function GlobalLoader() {
   const [loading, setLoading] = useState(true);
@@ -31,13 +30,6 @@ export default function GlobalLoader() {
   if (loading || isRouteChanging) {
     return (
       <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-green-400/50">
-        {/* <Image
-          src="/images/IMSG-Logo.svg"
-          alt="Loading..."
-          width={100}
-          height={100}
-          className="animate-spin-slow"
-        /> */}
          <svg
           className="animate-spin-slow"
     xmlns="http://www.w3.org/2000/svg"

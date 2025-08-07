@@ -30,7 +30,7 @@ export default function OfficeHours() {
   }, []);
 
   return (
-    <div className="office-hours-scroll-text pt-3">
+    <div className="office-hours-scroll-text pt-0 md:pt-3">
     <span>
       Office Hours – Monday to Friday: 8:00 AM – 4:00 PM | Office currently:
       <span className={status === 'Open' ? 'text-green-400 ml-1' : 'text-red-400 ml-1'}>
