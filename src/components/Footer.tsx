@@ -23,7 +23,7 @@ const info = {
     { label: "Subscribe", href: "/" },
   ],
   contact: [
-    { label: "Block 7, New Owerri Secretariat 460281", href: "/" },
+    { label: "Imo State Government Secretariat, Owerri, Imo State", href: "/" },
     { label: "", href: "" },
     { label: "", href: "" },
   ],

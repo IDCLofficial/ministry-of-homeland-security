@@ -28,8 +28,8 @@ export default function ContactUsPage() {
       <CTASection
         heading="Partner With Us to Safeguard Imo Communities"
         subtext="Support our mission to ensure security, prevent crime, and build community resilience across all Local Government Areas."
-        buttonLabel="Reach Out to the Ministry"
-        buttonHref="/contact-us"
+        buttonLabel="See Our Projects"
+        buttonHref="/projects"
       />
       <Footer />
     </main>
