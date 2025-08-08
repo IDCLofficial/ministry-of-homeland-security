@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagra
 const contactInfo = {
   address: "Imo State Government Secretariat, Owerri, Imo State",
   email: "",
-  phone: "",
+  phone: "+2348037914274",
   socials: [
     { icon: <FaFacebookF />, href: "#" },
     { icon: <FaTwitter />, href: "#" },

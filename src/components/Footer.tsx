@@ -24,7 +24,7 @@ const info = {
   ],
   contact: [
     { label: "Imo State Government Secretariat, Owerri, Imo State", href: "/" },
-    { label: "", href: "" },
+    { label: "+2348037914274", href: "tel:+2348037914274" },
     { label: "", href: "" },
   ],
 };
