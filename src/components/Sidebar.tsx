@@ -12,11 +12,12 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
-    { href: '/projects', label: 'Projects' },
     { href: '/services', label: 'Services' },
+    { href: '/projects', label: 'Projects' },
+    { href: '/news', label: 'News' },
+    { href: '/departments', label: 'Departments' },
     { href: '/events', label: 'Events' },
     { href: '/media', label: 'Media' },
-    { href: '/news', label: 'News' },
     { href: '/contact-us', label: 'Contact' },
   ];
 
