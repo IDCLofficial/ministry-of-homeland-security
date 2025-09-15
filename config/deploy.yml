@@ -11,7 +11,7 @@ servers:
 
 proxy:
   ssl: true
-  host: homeland.im.gov.ng
+  host: homesecurity.im.gov.ng
   app_port: 3000
   healthcheck:
     path: /
