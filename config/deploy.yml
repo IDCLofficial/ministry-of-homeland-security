@@ -7,7 +7,7 @@ image: idclofficial/ministry_of_finance_and_economic_development
 # Deploy to these servers.
 servers:
   web:
-    - 34.241.217.137
+    - 54.246.245.171
 
 proxy:
   ssl: true
