@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: ministry_of_finance_and_economic_development
+service: ministry_of_homeland_security
 
 # Name of the container image.
-image: idclofficial/ministry_of_finance_and_economic_development
+image: idclofficial/ministry_of_homeland_security
 
 # Deploy to these servers.
 servers:
@@ -11,7 +11,7 @@ servers:
 
 proxy:
   ssl: true
-  host: budget.im.gov.ng
+  host: homeland.im.gov.ng
   app_port: 3000
   healthcheck:
     path: /
