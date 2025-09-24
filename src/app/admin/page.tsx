@@ -338,6 +338,7 @@ import { TopHero } from "@/components/TopHero";
 import { useState, useEffect, useRef } from "react";
 import Swal from "sweetalert2";
 import crypto from "crypto"
+import Chatbot from "@/components/Chatbot";
 
 type Person = {
   "Full Name": string;
@@ -527,7 +528,12 @@ export default function AdminPage() {
       <TopHero ministryName="Vigilante Data Across Imo State" titleLabel="Admin" />
       <div className="p-6 max-w-6xl mx-auto">
         <h1 className="text-2xl font-bold mb-4">Imo State Vigilante Records</h1>
-
+        <button
+        onClick={() => setIsAuthenticated(false)}
+        className="mt-4 bg-gray-800 text-white px-4 py-2 rounded"
+      >
+        Logout
+      </button>
         {/* LGA Dropdown */}
         <div className="mb-6">
           <label className="block mb-2 font-semibold">Select Local Government:</label>
@@ -652,7 +658,7 @@ export default function AdminPage() {
             </tbody>
           </table>
         </div>
-
+              {isVerified && <Chatbot/>}
         {/* Infinite loader */}
         {visibleCount < filteredData.length && (
           <div
@@ -662,14 +668,9 @@ export default function AdminPage() {
             Loading more...
           </div>
         )}
+     
       </div>
 
-      <button
-        onClick={() => setIsAuthenticated(false)}
-        className="mt-4 bg-gray-800 text-white px-4 py-2 rounded"
-      >
-        Logout
-      </button>
     </>
   );
 }
