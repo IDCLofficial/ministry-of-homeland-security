@@ -629,7 +629,7 @@ export default function AdminPage() {
                       {person["NIMC Verified"] ? "✅" : "❌"}
                     </td>
                     <td className="border px-4 py-2 text-center">
-                      {!showAll && (
+                      {!showAll && isVerified && (
                         <button
                           className="text-blue-600 hover:underline"
                           onClick={() => {
