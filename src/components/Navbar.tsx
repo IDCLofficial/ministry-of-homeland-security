@@ -17,7 +17,7 @@ const navLinks = [
   { label: 'Events', href: '/events' },
   { label: 'Media', href: '/media' },
   { label: 'Contact Us', href: '/contact-us' },
-  { label: 'Admin', href: '/admin' },
+ 
 ];
 
 export default function Navbar() {
@@ -33,7 +33,7 @@ export default function Navbar() {
             <Image src="/images/IMSG-Logo.svg" alt="logo" width={40} height={20} className='object-contain' />
           </Link>
         </div>
-        <div className="font-satoshi space-x-6 gap-2 xl:gap-10 text-[16px] md:text-[12px] xl:text-[16px] font-bold hidden lg:flex">
+        <div className="font-satoshi space-x-6 gap-2 xl:gap-10 text-[16px] md:text-[12px] xl:text-[14px] font-bold hidden lg:flex">
           {navLinks.map((link) => {
             const isActive =
               link.href === '/'

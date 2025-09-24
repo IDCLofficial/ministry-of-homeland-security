@@ -19,6 +19,7 @@ const info = {
     { label: "Events", href: "/events" },
     { label: "Media", href: "/media" },
     { label: "Contact Us", href: "/contact-us" },
+    { label: 'Admin', href: '/admin' },
   ],
   newsletter: [
     { label: "Signup to Our Newsletter", href: "/" },
