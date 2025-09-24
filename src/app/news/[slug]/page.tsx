@@ -181,6 +181,9 @@ export default function NewsDetailPage() {
               See All News
             </Link>
           </div>
+
+
+         $2b$10$mN3yz8YX6Wic0lvNNARuIeJr4fOXMPy6xsxzUerb/i4HRqwnLbLq2
           
           {oldestNews.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -188,7 +191,7 @@ export default function NewsDetailPage() {
                 <Link
                   key={idx}
                   href={`/news/${slugify(item.title)}`}
-                  className="bg-[#232323] rounded-xl bg-white overflow-hidden hover:bg-[#2a2a2a] transition-colors cursor-pointer"
+                  className="rounded-xl bg-white overflow-hidden hover:bg-[#2a2a2a] transition-colors cursor-pointer"
                 >
                   <div className="relative w-full h-32">
                     <Image 
