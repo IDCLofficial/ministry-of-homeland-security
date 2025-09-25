@@ -52,7 +52,7 @@ builder:
     NEXT_PUBLIC_ADMIN_EMAIL: <% ENV["NEXT_PUBLIC_ADMIN_EMAIL"] %>
     NEXT_PUBLIC_ADMIN_PASSWORD: <% ENV["NEXT_PUBLIC_ADMIN_PASSWORD"] %>
     OPENAI_API_KEY: <% ENV["OPENAI_API_KEY"] %>
-
+    RESEND_API_KEY: <% ENV["RESEND_API_KEY"] %>
 env:
   clear:
     NEXTAUTH_URL: https://homesecurity.im.gov.ng
