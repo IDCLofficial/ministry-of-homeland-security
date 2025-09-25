@@ -54,7 +54,7 @@ builder:
 env:
   clear:
     NEXTAUTH_URL: https://homesecurity.im.gov.ng
-  secrets:
+  secret:
     - ADMIN_EMAIL
     - NEXTAUTH_SECRET
     - OPENAI_API_KEY
