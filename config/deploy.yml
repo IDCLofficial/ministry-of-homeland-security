@@ -7,7 +7,7 @@ image: idclofficial/ministry_of_homeland_security
 # Deploy to these servers.
 servers:
   web:
-    - 54.246.245.171
+    - 15.237.252.202
 
 proxy:
   ssl: true
@@ -25,7 +25,7 @@ registry:
     - KAMAL_REGISTRY_PASSWORD
 
 ssh:
-  user: kamal
+  user: ubuntu
 
 # Configure builder setup.
 builder:
