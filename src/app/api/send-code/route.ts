@@ -25,7 +25,7 @@ export async function POST(req: Request) {
   try {
     await resend.emails.send({
       from: "onboarding@resend.dev",   // ✅ sandbox sender
-      to: "amaefule.primus@gmail.com",                       // your test Gmail or Outlook
+      to: "donnaogbu@gmail.com",                       // your test Gmail or Outlook
       subject: "Your Verification Code",
       html: `<p>Your code is <b>${code}</b>. It expires in 10 minutes.</p>`,
     });
